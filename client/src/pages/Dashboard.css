@@ -1,0 +1,142 @@
+.dashboard-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    overflow-x: hidden;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dashboard-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    color: #333;
+    padding: 16px;
+}
+
+.app-bar {
+    background-color: #ffffff !important;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #673ab7;
+    margin-right: 20px;
+}
+
+.user-menu-popup {
+    top: 48px !important; 
+}
+
+.user-menu .MuiPaper-root {
+    background-color: #333;
+    color: #fff;
+}
+
+.user-menu .MuiMenuItem-root {
+    &:hover {
+        background-color: #555;
+    }
+}
+
+.user-button {
+    color: #fff;
+    border-radius: 8px;
+    &:hover {
+        background-color: #2980b9;
+    }
+}
+
+.collections-view {
+    text-align: center;
+}
+
+.collections-view .collections-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.collections-view .collection-item {
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 14px;
+    color: #fff;
+}
+
+.collections-view .collection-item:hover {
+    background-color: #2980b9;
+}
+
+.collections-view .add-collection {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collections-view .add-collection .MuiTextField-root {
+    margin-right: 8px;
+}
+
+.collections-view .add-collection .MuiButton-root {
+    margin-left: 8px;
+}
+
+.urls-view {
+    text-align: center;
+}
+
+.urls-view .go-back {
+    margin-bottom: 16px;
+}
+
+.urls-view table {
+    width: 100%;
+}
+
+.urls-view .add-url {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-view {
+    text-align: center;
+}
+
+.chart-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 400px; 
+    height: 300px;
+}
